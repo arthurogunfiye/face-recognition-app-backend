@@ -10,7 +10,7 @@ import { updateEntries, handleClarifaiRequest } from "./controllers/image.js";
 const db = knex({
   client: "pg",
   connection: {
-    host: "127.0.0.1",
+    host: "postgresql-clean-28431",
     user: "arthurogunfuye",
     password: "",
     database: "smart-brain",
