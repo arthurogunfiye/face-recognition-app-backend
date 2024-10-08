@@ -33,7 +33,7 @@ import Clarifai from "clarifai";
 //   return requestOptions;
 // };
 const app = new Clarifai.App({
-  apiKey: "8a5d13851c42490da4518bc64ac0d1ae",
+  apiKey: process.env.CLARIFAI_API_KEY,
 });
 //   fetch(
 //     "https://api.clarifai.com/v2/models/face-detection/outputs",
